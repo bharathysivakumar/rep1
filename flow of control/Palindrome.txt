@@ -1,0 +1,27 @@
+package hhfgf;
+
+import java.util.Scanner;
+
+public class Palindrome {
+
+    public static void main(String[] args) {
+
+        int num , rev = 0, rem, o;
+Scanner sc=new Scanner(System.in);
+num=sc.nextInt();
+        o = num;
+
+        
+        while( num != 0 )
+        {
+            rem = num % 10;
+            rev = rev * 10 + rem;
+            num  =num/ 10;
+        }
+        if (o ==rev)
+            System.out.println(o + " is a palindrome.");
+        else
+            System.out.println(o + " is not a palindrome.");
+    }
+}
+

@@ -1,0 +1,21 @@
+package hhfgf;
+import java.util.*;
+public class MainDe {
+	
+	 public static void main(String[] input)
+	 {
+			char ch ='i' ;
+Scanner sc=new Scanner(System.in);
+//ch=sc.next();
+// String s1=CharAt(ch);
+			if (Character.isLowerCase(ch)) 
+				System.out.println(ch + "->" + Character.toUpperCase(ch));
+			else
+				System.out.println(ch + "->" + Character.toLowerCase(ch));
+
+}
+
+	private static String CharAt(String ch) {
+		// TODO Auto-generated method stub
+		return null;
+	}}

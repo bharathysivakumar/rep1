@@ -1,0 +1,23 @@
+package hhfgf;
+
+public class PrimeDigits {
+public static void main(String[] args) {
+	        int i, j, isPrime, n;
+	        System.out.println("All Prime Numbers Between 10 to 90");
+	     for (i = 10; i <= 90; i++) {
+	            isPrime = 0;
+	            for (j = 10; j <= i / 2; j++) {
+	               
+	                if (i % j == 0) {
+	                    isPrime = 1;
+	                    break;
+	                }
+	            }
+	 
+	            if (isPrime == 0)
+	                System.out.print(i + " ");
+	        }
+	 
+	    }
+	}
+

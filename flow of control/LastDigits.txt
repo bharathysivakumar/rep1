@@ -1,0 +1,21 @@
+package hhfgf;
+
+import java.util.Scanner;
+
+public class LastDigits {
+	public boolean lastDigits(int a,int b) {
+		a=a%10;
+		b=b%10;
+		if(a==b)
+			return true;
+		else
+			return false;
+	}
+	public static void main(String arg[]) {
+		LastDigits l=new LastDigits();
+		System.out.println(l.lastDigits(7, 17));
+		System.out.println(l.lastDigits(5, 17));
+		System.out.println(l.lastDigits(0, 10));
+		System.out.println(l.lastDigits(3, 13));
+	}
+}
